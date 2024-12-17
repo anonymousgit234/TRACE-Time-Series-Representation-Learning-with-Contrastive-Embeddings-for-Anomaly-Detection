@@ -18,3 +18,34 @@ This paper introduces a novel framework for multivariate time series anomaly det
 - **Robust Representations:** Integrates representation learning with contrastive learning, generating more discriminative and robust time series embeddings.
 - **Performance:** Evaluated on open-source datasets like SWAT and SMD, as well as a real-world Photovoltaic Inverters Dataset (PID), demonstrating superior performance compared to state-of-the-art TSAD models.
 - **Versatility:** Highlights adaptability to other time series tasks and potential for extension to domains beyond time series analysis.
+
+Self-Supervised-Contrastive-Learning-for-Time-Series-Anomaly-Detection/
+│
+├── README.md                  # Project documentation
+│
+├── utils/                     # Utility functions
+│   ├── aug_utils.py           # Augmentation utilities
+│   ├── ae_utils.py            # Autoencoder utilities
+│   ├── cl_utils.py            # Contrastive learning utilities
+│   ├── cl_functions.py        # Core contrastive learning functions
+│   ├── constants.py           # Global constants
+│   ├── load_dataset.py        # Dataset loading scripts
+│   ├── plots.py               # Visualization scripts
+│   └── utils.py               # General helper functions
+│
+└── Models/                    # Model implementations for SMD Dataset
+    ├── SMD_CL_warping.py
+    ├── SMD_CL_masking.py
+    ├── SMD_CL_permuting.py
+    ├── SMD_CL_scaling.py
+    ├── SMD_CL_slicing.py
+    ├── SMD_CL_timeshifting.py
+    ├── SMD_CL_freqshifting.py
+    ├── SMD_CL_jittering.py
+    ├── SMD_CL_CNNAE.py
+    ├── SMD_CL_CNNATTNAE.py
+    ├── SMD_CL_LSTMAE.py
+    ├── SMD_CL_LSTMATTNAE.py
+    ├── SMD_CL_MaskedBiLSTMATTNAE.py
+    └── SMD_CL_MultiHeadLSTMATTNAE.py
+
