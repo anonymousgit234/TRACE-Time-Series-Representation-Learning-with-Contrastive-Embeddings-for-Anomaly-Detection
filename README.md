@@ -4,6 +4,8 @@ Source code of the research paper "Self-Supervised Contrastive Learning with Aut
 This repository contains the implementation of the TRACE (**T**ime series
 **R**epresentation learning with **A**utoencoder-based **C**ontrastive **E**mbeddings) framework proposed in the paper.
 
+![TRACE Graphical Abstract](TRACE_v6.pdf)
+
 ## Overview
 This paper introduces a novel framework for multivariate time series anomaly detection using:
 - **Autoencoder-based augmentations** for generating positive and negative samples. 
