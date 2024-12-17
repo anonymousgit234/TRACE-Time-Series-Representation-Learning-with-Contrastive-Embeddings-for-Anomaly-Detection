@@ -8,11 +8,11 @@ This repository contains the implementation of the TRACE (**T**ime series
 **Overview**
 This paper introduces a novel framework for multivariate time series anomaly detection using:
 
-**Autoencoder-based augmentations** for generating positive and negative samples.
-**Contrastive learning** via a Siamese network to learn robust embeddings.
-**Clustering methods** (KMeans, DBSCAN) applied to the learned embeddings for anomaly detection.
+**Autoencoder-based augmentations** for generating positive and negative samples.\n
+**Contrastive learning** via a Siamese network to learn robust embeddings.\n
+**Clustering methods** (KMeans, DBSCAN) applied to the learned embeddings for anomaly detection.\n
 
-Key features of the framework:
-Incorporates hard negative augmentation strategies: Random, Distance-based, and Reconstruction Error-based.
-Uses augmentations such as jittering, masking, time warping, and more to create diverse data views.
-Evaluated across multiple datasets with performance metrics like precision, recall, and F1-score.
+Key features of the framework:\n
+- Incorporates hard negative augmentation strategies: Random, Distance-based, and Reconstruction Error-based.\n
+- Uses augmentations such as jittering, masking, time warping, and more to create diverse data views.\n
+- Evaluated across multiple datasets with performance metrics like precision, recall, and F1-score.
