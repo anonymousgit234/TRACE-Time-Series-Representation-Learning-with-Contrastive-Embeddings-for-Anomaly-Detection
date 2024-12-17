@@ -4,18 +4,15 @@ Source code of the research paper "Self-Supervised Contrastive Learning with Aut
 This repository contains the implementation of the TRACE (**T**ime series
 **R**epresentation learning with **A**utoencoder-based **C**ontrastive **E**mbeddings) framework proposed in the paper.
 
-**Overview**
-\n
+## Overview
 This paper introduces a novel framework for multivariate time series anomaly detection using:
+- **Autoencoder-based augmentations** for generating positive and negative samples. 
+- **Contrastive learning** via a Siamese network to learn robust embeddings. 
+- **Clustering methods** (KMeans, DBSCAN) applied to the learned embeddings for anomaly detection. 
 
-**Autoencoder-based augmentations** for generating positive and negative samples. 
-\n
-**Contrastive learning** via a Siamese network to learn robust embeddings. 
-\n
-**Clustering methods** (KMeans, DBSCAN) applied to the learned embeddings for anomaly detection. 
-\n
 
-Key features of the framework:
-- Incorporates hard negative augmentation strategies: Random, Distance-based, and Reconstruction Error-based.\n
-- Uses augmentations such as jittering, masking, time warping, and more to create diverse data views.\n
-- Evaluated across multiple datasets with performance metrics like precision, recall, and F1-score.
+### Key features of the framework:
+- **TRACE Framework:** Combines self-supervised contrastive learning with autoencoder-based augmentations to enhance time series anomaly detection (TSAD) by capturing complex temporal patterns.
+- **Robust Representations:** Integrates representation learning with contrastive learning, generating more discriminative and robust time series embeddings.
+- **Performance:** Evaluated on open-source datasets like SWAT and SMD, as well as a real-world industrial dataset (PID), demonstrating superior performance compared to state-of-the-art TSAD models.
+- **Versatility:** Highlights adaptability to other time series tasks and potential for extension to domains beyond time series analysis.
