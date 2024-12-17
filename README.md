@@ -21,7 +21,7 @@ This paper introduces a novel framework for multivariate time series anomaly det
 
 ## File Structure
 
-Self-Supervised-Contrastive-Learning-for-Time-Series-Anomaly-Detection/
+Self-Supervised-Contrastive-Learning-for-Time-Series-Anomaly-Detection
 ```
 │
 ├── README.md                  # Project documentation
