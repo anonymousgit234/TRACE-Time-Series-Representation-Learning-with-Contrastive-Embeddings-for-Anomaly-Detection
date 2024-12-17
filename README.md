@@ -19,7 +19,10 @@ This paper introduces a novel framework for multivariate time series anomaly det
 - **Performance:** Evaluated on open-source datasets like SWAT and SMD, as well as a real-world Photovoltaic Inverters Dataset (PID), demonstrating superior performance compared to state-of-the-art TSAD models.
 - **Versatility:** Highlights adaptability to other time series tasks and potential for extension to domains beyond time series analysis.
 
+## File Structure
+
 Self-Supervised-Contrastive-Learning-for-Time-Series-Anomaly-Detection/
+```
 │
 ├── README.md                  # Project documentation
 │
@@ -48,4 +51,5 @@ Self-Supervised-Contrastive-Learning-for-Time-Series-Anomaly-Detection/
     ├── SMD_CL_LSTMATTNAE.py
     ├── SMD_CL_MaskedBiLSTMATTNAE.py
     └── SMD_CL_MultiHeadLSTMATTNAE.py
+```
 
