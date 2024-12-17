@@ -25,6 +25,7 @@ Self-Supervised-Contrastive-Learning-for-Time-Series-Anomaly-Detection
 ```
 │
 ├── README.md                  # Project documentation
+├── TRACE_v6.png               # TRACE Graphical Abstract
 │
 ├── utils/                     # Utility functions
 │   ├── aug_utils.py           # Augmentation utilities
