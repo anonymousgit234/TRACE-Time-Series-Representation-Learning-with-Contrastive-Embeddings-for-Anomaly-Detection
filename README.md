@@ -62,4 +62,4 @@ MTAD: Tools and Benchmarks for Multivariate Time Series Anomaly Detection by Liu
 ![MTAD](https://github.com/OpsPAI/MTAD/tree/main)
 
 CARLA: Self-supervised Contrastive Representation Learning for Time Series Anomaly Detection by Darban et al. CARLA .
-![CARLA](https://github.com/zamanzadeh/CARLA))
+![CARLA](https://github.com/zamanzadeh/CARLA/raw/main/README.md?raw=true)
