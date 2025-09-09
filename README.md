@@ -59,7 +59,7 @@ Self-Supervised-Contrastive-Learning-for-Time-Series-Anomaly-Detection
 - Benchmark comparisons use the MTAD toolkit and CARLA framework to evaluate TRACE under identical settings:
 
 MTAD: Tools and Benchmarks for Multivariate Time Series Anomaly Detection by Liu et al. MTAD-main.
-![MTAD](https://github.com/OpsPAI/MTAD/tree/main)
+[MTAD](https://github.com/OpsPAI/MTAD/tree/main)
 
 CARLA: Self-supervised Contrastive Representation Learning for Time Series Anomaly Detection by Darban et al. CARLA .
-![CARLA](https://github.com/zamanzadeh/CARLA/raw/main/README.md?raw=true)
+[CARLA](https://github.com/zamanzadeh/CARLA/raw/main/README.md?raw=true)
