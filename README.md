@@ -50,9 +50,9 @@ Self-Supervised-Contrastive-Learning-for-Time-Series-Anomaly-Detection
     ├── SMD_CL_CNNATTNAE.py
     ├── SMD_CL_LSTMAE.py
     ├── SMD_CL_LSTMATTNAE.py
-    ├── SMD_CL_MaskedBiLSTMATTNAE.py       
-    └── SMD_CL_MultiHeadLSTMATTNAE.py
-    |__ SMD_CL_TransformerAE.py
+    ├── SMD_CL_MaskedBiLSTMATTNAE.py
+    ├── SMD_CL_MultiHeadLSTMATTNAE.py     
+    └── SMD_CL_TransformerAE.py 
 
 ```
 ### Benchmark Experiments:
