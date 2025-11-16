@@ -71,6 +71,43 @@ Self-Supervised-Contrastive-Learning-for-Time-Series-Anomaly-Detection
 - Real-world industrial data
 - Contact authors for research access
 
+### Augmentation Strategies
+
+TRACE implements two categories of augmentation strategies for contrastive learning:
+
+#### 1. Traditional Time Series Augmentations
+
+These scripts implement classical time series perturbation methods:
+
+- **Warping**: Non-linear temporal distortion
+- **Masking**: Random masking of time steps
+- **Permuting**: Random permutation of subsequences
+- **Scaling**: Multiplicative scaling of amplitudes
+- **Slicing**: Random sub-sequence extraction
+- **Time Shifting**: Temporal shift of sequences
+- **Frequency Shifting**: Spectral domain modifications
+- **Jittering**: Additive noise perturbation
+
+#### 2. Autoencoder-Based Augmentations (Primary in TRACE)
+
+These scripts implement semantic augmentations through autoencoder reconstruction perturbations:
+
+- **CNN Autoencoder (CNNAE)**: 1D convolutional encoder-decoder
+- **CNN + Attention (CNNATTNAE)**: CNN with self-attention mechanisms
+- **LSTM Autoencoder (LSTMAE)**: Bidirectional LSTM encoder-decoder
+- **LSTM + Attention (LSTMATTNAE)**: LSTM with attention layers
+- **Masked BiLSTM + Attention (MaskedBiLSTMATTNAE)**: Enhanced LSTM variant
+- **MultiHead LSTM + Attention (MultiHeadLSTMATTNAE)**: Multi-head attention variant
+- **Transformer Autoencoder (TransformerAE)**: Self-attention based architecture ⭐
+
+**Note**: TransformerAE backbone achieves superior performance (21.3% F1 improvement) 
+and is the primary backbone used in TRACE framework for PV anomaly detection.
+
+#### Using These Models for Other Datasets
+
+The scripts in the `Models/` folder were developed for the SMD (Server Machine Dataset) 
+and are directly applicable to other time series datasets:
+
 ### Benchmark Experiments:
 Benchmark comparisons use the MTAD toolkit and CARLA framework to evaluate TRACE under identical settings:
 
