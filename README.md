@@ -57,6 +57,11 @@ Self-Supervised-Contrastive-Learning-for-Time-Series-Anomaly-Detection
 
 ```
 
+### Installation
+### Requirements
+- Python 3.8+
+- TensorFlow 2.17+
+- See requirements.txt for complete list
 
 ### Datasets
 #### SWaT
