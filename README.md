@@ -105,7 +105,7 @@ and is the primary backbone used in TRACE framework for PV anomaly detection.
 
 #### Using These Models for Other Datasets
 
-The scripts in the `Models/` folder were developed for the SMD (Server Machine Dataset) 
+The scripts in the `SMD_Models/` folder were developed for the SMD (Server Machine Dataset) 
 and are directly applicable to other time series datasets:
 
 ### Benchmark Experiments:
