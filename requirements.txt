@@ -1,0 +1,14 @@
+numpy==1.26.2
+pandas==2.1.4
+scikit-learn==1.4.2
+optuna==3.6.1
+psutil==5.9.7
+tensorflow==2.17.0
+keras==3.3.3
+scipy==1.11.4
+joblib==1.3.2
+scikeras==0.13.0
+matplotlib==3.7.5
+seaborn==0.13.2
+hdbscan==0.8.40
+tsdownsample==0.1.4.1
