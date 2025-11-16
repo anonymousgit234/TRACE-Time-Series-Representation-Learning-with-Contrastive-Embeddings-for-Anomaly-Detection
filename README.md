@@ -38,7 +38,7 @@ Self-Supervised-Contrastive-Learning-for-Time-Series-Anomaly-Detection
 │   ├── plots.py               # Visualization scripts
 │   └── utils.py               # General helper functions
 │
-└── Models/                    # Model implementations for SMD Dataset
+└── SMD_Models/                    # Model implementations for SMD Dataset
     ├── SMD_CL_warping.py
     ├── SMD_CL_masking.py
     ├── SMD_CL_permuting.py
